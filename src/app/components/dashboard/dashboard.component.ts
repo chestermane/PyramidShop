@@ -28,6 +28,38 @@ export class DashboardComponent implements OnInit {
       type: "Home",
       imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
     },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
+    {
+      type: "Home",
+      imageUrl: "../../../assets/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg",
+    },
   ];
 
   constructor() {}

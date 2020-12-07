@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="row">
-        <div class="col col-md-2 p-0">
+        <div class="col col-md-2 pl-0">
           <app-left-menu></app-left-menu>
         </div>
         <div class="col-md-10">
@@ -12,14 +12,12 @@
               class="col col-md-4 overflow-hidden"
             >
               <div class="text-center">
-                <h2 class="title">{{ category.type }}</h2>
-
+                <h2 class="title border-bottom">{{ category.type }}</h2>
                 <img
                   src="{{ category.imageUrl }}"
                   class="rounded img-custom mb-4"
                   alt="{{ category.type }}"
                 />
-                <hr />
               </div>
             </div>
           </div>

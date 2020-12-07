@@ -2,18 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-$backgroundColor: #8A9DAE;
-$font-color: #00121f;
-$accentColor: #C08C56;
-$secondaryAccentColor: #61472B;
-$fontFamily: "Poppins, sans-serif";
+$backgroundColor: #2A9D8F;
+$font-color: #E76F51;
+$accentColor: #264653;
+$secondaryAccentColor: #E9C46A;
+$fontFamily: "Poppins, sans-serif !important";
 
 
 body {
   color: $font-color;
-  background-color: $backgroundColor;
+  background-color: $secondaryAccentColor;
   font-family: $fontFamily;
   overflow-x: hidden;
+
 }
 
 a {
@@ -28,12 +29,11 @@ a {
   text-transform: uppercase;
 }
 
-
-
 .img-custom {
   width: 325px;
   height: 200px;
   &:hover {
+  opacity: 100%;
   transform: scale(1.1);
   transition: transform .3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   }
