@@ -1,13 +1,29 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div *ngFor="let category of categories" class="col col-md-4">
-      <div class="text-center">
-        <h2 class="title">{{ category.type }}</h2>
-        <img
-          src="{{ category.imageUrl }}"
-          class="rounded img-custom"
-          alt="{{ category.type }}"
-        />
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col col-md-2 p-0">
+          <app-left-menu></app-left-menu>
+        </div>
+        <div class="col-md-10">
+          <div class="row">
+            <div
+              *ngFor="let category of categories"
+              class="col col-md-4 overflow-hidden"
+            >
+              <div class="text-center">
+                <h2 class="title">{{ category.type }}</h2>
+
+                <img
+                  src="{{ category.imageUrl }}"
+                  class="rounded img-custom mb-4"
+                  alt="{{ category.type }}"
+                />
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
