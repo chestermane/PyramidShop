@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$backgroundColor: #8A9DAE !important;
+$font-color: #00121f;
+$accentColor: #C08C56;
+$secondaryAccentColor: #61472B;
+$fontFamily: "Poppins, sans-serif !important";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $font-color;
+  background-color: $backgroundColor;
+  font-family: $fontFamily;
+  overflow-x: hidden;
+}
+
+a {
+  color: $accentColor;
+
+  &:hover {
+    color: $secondaryAccentColor;
+  }
+}
+

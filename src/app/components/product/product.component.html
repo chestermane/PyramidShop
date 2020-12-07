@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h1 class="display-4">{{ product?.name }}</h1>
+  <p class="lead">
+    {{ product?.description }}
+  </p>
+  <hr class="my-4" />
+  <a
+    [ngClass]="{ disabled: product?.quantity === 0 }"
+    class="btn btn-primary btn-lg"
+    href="#"
+    role="button"
+    >purchase now: {{ product?.price | currency: "USD":"symbol" }}</a
+  >
+</div>

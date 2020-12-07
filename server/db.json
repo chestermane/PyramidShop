@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Fire TV Stick 4K",
+      "description": "All-new Fire TV Stick with Alexa Voice Remote (includes TV controls) | HD streaming device | 2020 release",
+      "price": "29.99",
+      "onsale": true,
+      "quantity": 156,
+      "imgURL": ""
+    },
+    {
+      "id": 2,
+      "name": "Cyberpunk 2077 PS4",
+      "description": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.",
+      "price": "59.99",
+      "onsale": false,
+      "quantity": 13
+    },
+    {
+      "id": 3,
+      "name": "Playstation 5",
+      "description": "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.",
+      "price": "499.99",
+      "onsale": false,
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "name": "Harry Potter: Complete 8-Film Collection",
+      "description": "Harry Potter: The Complete 8-Film Collection (BD)",
+      "price": "49.99",
+      "onsale": true,
+      "quantity": 5
+    }
+  ]
+}

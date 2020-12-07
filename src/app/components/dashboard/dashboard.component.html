@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let category of categories" class="col col-md-4">
+      <div class="text-center">
+        <h2 class="title">{{ category.type }}</h2>
+        <img
+          src="{{ category.imageUrl }}"
+          class="rounded img-custom"
+          alt="{{ category.type }}"
+        />
+      </div>
+    </div>
+  </div>
+</div>
