@@ -1,0 +1,15 @@
+$backgroundColor: #2A9D8F !important;
+$font-color: #E76F51;
+$accentColor: #264653;
+$secondaryAccentColor: #E9C46A;
+$fontFamily: "Poppins, sans-serif !important";
+
+
+.footer {
+  height: 300px;
+  background-color: $accentColor;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
